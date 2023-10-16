@@ -30,7 +30,7 @@ ChartJS.register(
   Legend
 );
 
-const page = () => {
+const Page = () => {
   const [chartData, setChartData] = useState({
     datasets: [],
   });
@@ -330,4 +330,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
