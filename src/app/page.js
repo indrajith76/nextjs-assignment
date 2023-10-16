@@ -11,18 +11,18 @@ export default function Home() {
           <Link href="/">Ronas.IT</Link>
         </div>
         <div className="flex">
-          <div className="bg-[#c2e9dd] rounded-3xl px-8 py-10 w-[45%] h-[650px] flex flex-col justify-between">
+          <div className="bg-[#c2e9dd] rounded-3xl px-8 md:px-3 lg:px-8 py-10 w-[45%] h-[650px] flex flex-col justify-between">
             <div>
               <h1 className="text-5xl font-semibold">Cosy POS</h1>
-              <p className="mt-10 font-semibold text-gray-700 w-8 lg:w-56">
+              <p className="mt-10 font-semibold text-gray-700 w-8 md:w-28 lg:w-56">
                 How we created UI/UX design for the restaurant management system
               </p>
             </div>
             <div>
-              <button className="px-7 py-2 bg-gray-100 block text-xl rounded-3xl">
+              <button className="px-3 lg:px-7 py-2 bg-gray-100 block text-sm lg:text-xl rounded-3xl">
                 Point of Sale
               </button>
-              <button className="px-7 py-2 bg-gray-100 block text-xl rounded-3xl mt-3">
+              <button className="px-3 lg:px-7 py-2 bg-gray-100 block text-sm lg:text-xl rounded-3xl mt-3">
                 UI/UX
               </button>
             </div>
@@ -30,7 +30,7 @@ export default function Home() {
           <div className="w-full lg:w-[55%] relative">
             <div className="w-[100px] h-[100px] bg-[#e5dade] rounded-full absolute top-14 right-0 left-0 mx-auto"></div>
             <div className="absolute right-0 top-36 md:top-28">
-              <div className="rounded-2xl overflow-hidden h-[700px] overflow-y-scroll lg:h-auto">
+              <div className="rounded-2xl h-[700px] overflow-scroll lg:overflow-auto lg:h-auto">
                 <Page />
               </div>
             </div>
@@ -60,7 +60,9 @@ export default function Home() {
               the funding from an investor but without the mockup, I can&apos;t
               prove the feasibility of my idea.
             </p>
-            <p className="text-xl md:text-3xl text-slate-800 leading-10 mt-10">- Gregg</p>
+            <p className="text-xl md:text-3xl text-slate-800 leading-10 mt-10">
+              - Gregg
+            </p>
           </div>
         </div>
       </section>
