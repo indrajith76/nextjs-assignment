@@ -229,7 +229,7 @@ const Page = () => {
               </p>
               <div>
                 <p className="text-sm">Revenue</p>
-                <h4 className="text-[20px] md:text-3xl font-medium">$1200.56</h4>
+                <h4 className="text-[20px] md:text-3xl font-medium">$1200</h4>
               </div>
             </div>
             <div className="flex flex-col justify-between bg-gray-900 p-5 rounded-lg h-[150px] text-white">
