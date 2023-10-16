@@ -264,7 +264,7 @@ const Page = () => {
           <div className="mt-5 flex flex-col lg:flex-row gap-5">
             <div className="w-full lg:w-[400px] border border-gray-600 p-4 rounded-lg">
               <p className="flex justify-between mb-3">
-                <span className="text-white">Today's upsale</span>
+                <span className="text-white">Today&apos;s upsale</span>
                 <Link className="text-white underline" href="/">
                   See All
                 </Link>
